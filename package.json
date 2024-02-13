@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "tailwindcss -i index.css -o popup.css -w",
-        "build": "tailwindcss -i index.css -o popup.css",
+        "dev": "tailwindcss -i src/index.css -o src/popup.css -w",
+        "build": "tailwindcss -i src/index.css -o src/popup.css && mkdir -p dist && cp src/* dist && rm src/popup.css",
         "lint": "prettier ./* -w"
     },
     "keywords": [],
