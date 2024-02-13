@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Anime App",
+    "version": "0.0.1",
+    "description": "An extension to quick access Anime App",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Anime Search"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
